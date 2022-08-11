@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Advent Pro, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ***********************nav*************************** */
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  background-color: #fffae1;
+  opacity: 0.9;
+}
+
+header li {
+  font-size: 1.2em;
+  float: right;
+}
+
+header li a {
+  text-decoration: none;
+  height: 100%;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+
+#logo {
+  font-family: Dancing script, cursive;
+  font-weight: bold;
+  float: left;
+}
+
+/* *******************image principale*********************** */
+
+#imagePrincipale {
+  padding-top: 60px;
+  background-image: url("media/horse.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 15%;
+  background-size: cover;
+  height: 799px;
+}
+
+h1 {
+  font-family: Dancing script, cursive;
+  text-align: center;
+  text-transform: uppercase;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+
+#premierTrait {
+  height: 1px;
+  width: 25%;
+  background-color: #fffae1;
+  margin: -3px auto;
+  box-shadow: 1px 3px 2px black;
+}
+
+h3 {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+
+/* ***************Presentation****************** */
+
+#presentations {
+  background-color: #fffae1;
+  padding: 10px 0px 100px 0px;
+}
+
+#texteIntro {
+  padding: 0px 20%;
+}
+
+#prestations {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 10%;
+}
+
+.imagesPrestations h4 {
+  font-family: dancing script, cursive;
+  font-size: 1.8em;
+  font-weight: 500;
+  text-align: center;
+  margin: 15px;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.7);
+  transition: all 0.6s ease;
+}
+
+img:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+  transition: all 0.6s ease;
+}
+
+/* *****************derniere section******************* */
+
+#avant_derniere {
+  height: 1400px;
+  background-color: #f1f2f6;
+  padding: 1px 2%;
+}
+
+#avant_derniere h2 {
+  padding-top: 60px;
+}
+
+#sjt1 {
+  background-image: url("media/colors.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+
+#sjt2 {
+  background-image: url("media/zeloula.JPG");
+  background-size: cover;
+  background-position: 50%;
+}
+
+#sjt3 {
+  background-image: url("media/plage.JPG");
+  background-size: cover;
+  background-position: 50%;
+}
+
+#sjt4 {
+  background-image: url("media/blanc.JPG");
+  background-size: cover;
+  background-position: 50%;
+}
+
+#avant_derniere li {
+  margin: 65px 100px 0 100px;
+  height: 226px;
+  width: 55%;
+  max-width: 550px;
+  float: left;
+  box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
+}
+
+#avant_derniere p {
+  height: 45px;
+  width: 235px;
+  background-color: #01df74;
+  float: right;
+  margin: 50px -180px 0 0;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 15px;
+  box-shadow: 4px 4px 0 1px rgba(90, 161, 43, 1);
+}
+
+#avant_derniere #sjt2,
+#avant_derniere #sjt4 {
+  float: right;
+}
+
+#sjt2 p,
+#sjt4 p {
+  float: left;
+  background-color: cyan;
+  margin-left: -180px;
+  box-shadow: -4px 4px 0 1px rgba(15, 154, 156, 1);
+}
+
+/* ************footer************************* */
+
+footer {
+  background-color: #524a3a;
+  color: #fffae1;
+  padding: 20px 0 100px 0;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+input,
+textarea {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: Advent Pro, sans-serif;
+  border-radius: 8px;
+}
+textarea {
+  height: 120px;
+}
+
+input[type="submit"] {
+  font-size: 1.5em;
+  background-color: #fffae1;
+}
+
+input[type="submit"]:hover {
+  background-color: #e55039;
+  color: #fffae1;
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
+
+#deuxiemeTrait {
+  width: 75%;
+  height: 1px;
+  background-color: #fffae1;
+  margin: 60px auto;
+}
+
+#copyrightEtIcons {
+  display: flex;
+  padding: 0 10%;
+  margin-bottom: 20px;
+}
+
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: #fffae1;
+}
+
+#icons {
+  width: 50%;
+  text-align: right;
+}
+
+#icons a {
+  display: inline-block;
+  margin: 0 15px;
+  color: #fffae1;
+  font-size: 1.3em;
+}
+
+#icons a :hover {
+  transform: scale(1.5);
+  transition: all 0.1s ease;
+}
